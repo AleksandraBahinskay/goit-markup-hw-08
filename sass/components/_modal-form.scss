@@ -1,0 +1,122 @@
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form__input-wrapper {
+  position: relative;
+  display: block;
+  margin-top: 4px;
+}
+
+.modal-form__input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 42px;
+  transition: border-color 250ms var(--cub);
+
+  &:focus {
+    outline: none;
+    border-color: var(--action-color);
+  }
+}
+
+.modal-form__icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  display: block;
+  width: 18px;
+  height: 18px;
+  transition: background-color 250ms var(--cub);
+
+  .modal-form__input:focus + & {
+    fill: var(--action-color);
+  }
+}
+
+.modal-form__message {
+  width: 100%;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 12px 16px;
+  resize: none;
+  transition: border-color 250ms var(--cub);
+  margin-top: 4px;
+
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--action-color);
+  }
+}
+
+.modal-form__check-desc {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--paragraph-color);
+  margin-top: 20px;
+}
+
+.modal-form__check-desc::before {
+  display: block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  outline: 1px solid #000000;
+  cursor: pointer;
+  margin-right: 8px;
+
+  .modal-form-term:checked + & {
+    background-color: var(--action-color);
+    background-image: url(../images/modal/vector-1.svg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border: none;
+  }
+  .modal-form-term:focus + & {
+    outline: 1px solid var(--action-color);
+  }
+}
+
+.modal-form__btn {
+  min-width: 200px;
+  min-height: 50px;
+  padding: 10px 32px;
+  border: transparent;
+  border-radius: 4px;
+  align-self: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: var(--action-color);
+  color: var(--white);
+  transition: color 250ms linear, background-color 250ms var(--cub);
+  text-align: center;
+  outline-style: none;
+  border-width: 2px;
+  margin-top: 30px;
+
+  &:hover,
+  &:focus {
+    background-color: var(--hero-btn-action-bgc);
+    color: var(--white);
+  }
+}
+
+.modal-form__field {
+  margin-top: 10px;
+}

@@ -1,0 +1,44 @@
+:root {
+  /* Паддинги секций */
+  --section-pdg: 94px;
+
+  /* Основной зазор */
+  --primary-gap: 30px;
+
+  /* Шрифты */
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+
+  /* Фоны */
+  --primary-bgc: #ffffff;
+  --footer-bgc: #2f303a;
+  /* Фон кнопок фильтра и фон секции команды*/
+  --secondary-bgc: #f5f4fa;
+
+  /* Заголовки h2-h3, текст кнопок фильтра, текст навигации в шапке */
+  --main-title-color: #212121;
+
+  /* Основной текст, контакты в шапке */
+  --paragraph-color: #757575;
+
+  /* Цвета логотипа */
+  --primary-part-logo-color: #2196f3;
+  --header-part-logo-color: #000000;
+  --footer-part-logo-color: #ffffff;
+
+  /* Состояние активности: ссылки (текст), кнопки фильтра (фон) */
+  --action-color: #2196f3;
+
+  /* Фон кнопки героя при наведении */
+  --hero-btn-action-bgc: #188ce8;
+
+  /* Почта и телефон в подвале */
+  --fotter-contacts-color: rgba(255, 255, 255, 0.6);
+
+  /* Рамка карточек проектов в портфолио */
+  --project-border-color: #eeeeee;
+  --white: #ffffff;
+
+  /*Анимация*/
+  --cub: cubic-bezier(0.4, 0, 0.2, 1);
+}

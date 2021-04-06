@@ -1,0 +1,8 @@
+.action-btn {
+  transition: background-color 250ms var(--cub);
+
+  &:hover,
+  &:focus {
+    background-color: var(--hero-btn-action-bgc);
+  }
+}

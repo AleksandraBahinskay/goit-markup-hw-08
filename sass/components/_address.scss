@@ -1,0 +1,26 @@
+.address {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+
+.address__phone,
+.address__email {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address__text {
+  color: var(--white);
+}
+
+.address__text,
+.address__contacts .address__item {
+  margin-bottom: 9px;
+}
+
+.address__contacts .address__item:last-child {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,133 @@
+.footer {
+  min-width: 1200px;
+  background-color: var(--footer-bgc);
+}
+
+.footer__invitation {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer__wraper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -20px;
+
+  &:not(:last-child) {
+    margin-right: 70px;
+  }
+}
+
+.icon-list {
+  display: flex;
+
+  .footer & {
+    display: flex;
+  }
+}
+
+.icon-list__item:not(:last-child) {
+  width: calc((100%-30px) / 4);
+  margin-right: 10px;
+}
+
+.footer .icons-thumb {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-list__icons {
+  fill: var(--white);
+}
+
+.social-list__icon {
+  transition: fill 250ms var(--cub);
+
+  .icon-list__link:hover &,
+  .icon-list__link:focus & {
+    fill: var(--white);
+  }
+}
+
+.icon-list__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  transition: background-color 250ms var(--cub);
+
+  &:hover,
+  &:focus {
+    background-color: var(--action-color);
+  }
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-form__input {
+  display: flex;
+  width: 358px;
+  height: 50px;
+  padding: 0 16px;
+  margin-right: 12px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  background-color: transparent;
+
+  border: 1px solid var(--paragraph-color);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 4px;
+  transition: border var(--cub);
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+  }
+  &:hover,
+  &:focus {
+    outline: var(--white);
+    border: 1px solid var(--white);
+  }
+}
+
+.fotter-form__icon {
+  margin-left: 10px;
+  fill: var(--white);
+  background-image: url(/images/sprite.svg#send-btn);
+  align-items: center;
+  justify-content: center;
+}
+.fotter-form__btn {
+  align-items: center;
+  min-width: 200px;
+  min-height: 50px;
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background-color: var(--action-color);
+  border: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  outline-style: none;
+  border-width: 2px;
+  display: flex;
+}
