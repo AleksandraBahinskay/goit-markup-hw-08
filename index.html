@@ -65,7 +65,7 @@
             </button>
             <ul class="mobile-menu__list list">
                 <li class="mobile-menu__item">
-                    <a href="" class="mobile-menu-link link">Cтудия</a>
+                    <a href="" class="mobile-menu-link action link">Cтудия</a>
                 </li>
                 <li class="mobile-men__item">
                     <a href="" class="mobile-menu-link link">Портфолио</a>
@@ -74,22 +74,40 @@
                     <a href="" class="mobile-menu-link link">Контакты</a>
                 </li>
             </ul>
-
-            <ul class="mobile-menu__contact-list list">
-                <li class="mobile-menu__item">
-                    <a href="mailto:info@devstudio.com" class="mobile-menu__contact-link link">info@devstudio.com</a>
+            <div class="mobile-contact">
+            <ul class="mobile-contact__list list">
+                <li class="mobile-contact__item">
+                    <a href="tel:+380961111111" class="mobile-contact__tel link">+38 096 111 11 11</a>
                 </li>
-                <li class="mobile-men__item">
-                    <a href="tel:+380961111111" class="mobile-menu__contact-link link">+38 096 111 11 11</a>
-                </li>
-                
+                <li class="mobile-contact__item">
+                    <a href="mailto:info@devstudio.com" class="mobile-contact__mail link">info@devstudio.com</a>
+                </li> 
             </ul>
+            </div>
+            <div class="mobile-social">
+                <ul class="mobile-social__list list">
+                    <li class="mobile-social__item">
+                        <a href="" class="mobile-social__link link">Instagram</a>
+                    </li>
+                    <li class="mobile-social__item">
+                        <a href="" class="mobile-social__link link">Twitter</a>
+                    </li>
+                    <li class="mobile-social__item">
+                        <a href="" class="mobile-social__link link">Facebook</a>
+                    </li>
+                    <li class="mobile-social__item">
+                        <a href="" class="mobile-social__link link">LinkedIn</a>
+                    </li>
+                </ul>
+            
+            </div>
         </div>
+
     </header>
     <main>
         <!--Секция герой-->
         
-        <!-- <section class="hero">
+         <section class="hero">
             <div class="container">
                 <h1 class="hero__title">
                     Эффективные решения для вашего бизнеса
@@ -98,10 +116,10 @@
                     Заказать услугу
                 </button>
             </div>
-        </section> -->
+        </section> 
 
         <!--Секция преимущества компании-->
-        <!-- <section class="advantages">
+          <section class="advantages"> 
         
             <h2 class="visually-hidden">Наши сильные стороны</h2>
             <div class=" container">
@@ -156,15 +174,17 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>  
 
         <!--Секция чем занимается компания-->
-        <!-- <section class="abilities">
+          <section class="abilities">
             <div class="container">
                 <h2 class="title">Чем мы занимаемся</h2>
                 <ul class="abilities__list list">
                     <li class="abilities__item">
                         <picture class="picture">
+                            <source srcset="./images/whatwedo/img.webp 1x, ./images/whatwedo/img@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
                             <source srcset="./images/whatwedo/img.jpg 1x, ./images/whatwedo/img@2x.jpg 2x"
                                 media="(min-width: 1200px)">
                             <img class="image" src="./images/whatwedo/img.jpg"
@@ -176,6 +196,8 @@
                     </li>
                     <li class="abilities__item">
                         <picture class="picture">
+                            <source srcset="./images/whatwedo/img-1.webp 1x, ./images/whatwedo/img-1@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
                             <source srcset="./images/whatwedo/img-1.jpg 1x, ./images/whatwedo/img-1@2x.jpg 2x"
                                 media="(min-width: 1200px)">
                             <img class="image" src="./images/whatwedo/img-1.jpg"
@@ -186,6 +208,8 @@
                     </li>
                     <li class="abilities__item">
                         <picture class="picture">
+                            <source srcset="./images/whatwedo/img-2.webp 1x, ./images/whatwedo/img-2@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
                             <source srcset="./images/whatwedo/img-2.jpg 1x, ./images/whatwedo/img-2@2x.jpg 2x"
                                 media="(min-width: 1200px)">
                             <img class="image" src="./images/whatwedo/img-2.jpg"
@@ -196,19 +220,25 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>  
         
         <!--Секция команда компании-->
-        <!-- <section class="team">
+        <section class="team">
             <div class="container">
                 <h2 class="title">Наша команда</h2>
                 <ul class="team__list list">
                     <li class="team__item">
                         <picture class="picture">
+                            <source srcset="./images/team/desktop/img.webp 1x, ./images/team/desktop/img@2x.webp 2x" 
+                                media="(min-width: 1200px)" type="image/webp">
                             <source srcset="./images/team/desktop/img.jpg 1x, ./images/team/desktop/img@2x.jpg 2x"
                                 media="(min-width: 1200px)">
+                            <source srcset="./images/team/tablet/img.webp 1x, ./images/team/tablet/img@2x.webp 2x" 
+                            media="(min-width: 768px)" type="image/webp">
                             <source srcset="./images/team/tablet/img.jpg 1x, ./images/team/tablet/img@2x.jpg 2x"
                                 media="(min-width: 768px)">
+                            <source srcset="./images/team/mobile/img.webp 1x, ./images/team/mobile/img@2x.webp 2x" 
+                            media="(min-width: 320px)" type="image/webp">
                             <source srcset="./images/team/mobile/img.jpg 1x, ./images/team/mobile/img@2x.jpg 2x"
                                 media="(min-width: 320px)">
                             <img src="./images/team/desktop/img.jpg"
@@ -253,10 +283,16 @@
         
                     <li class="team__item">
                         <picture class="picture">
+                            <source srcset="./images/team/desktop/img-1.webp 1x, ./images/team/desktop/img-1@2x.webp 2x" 
+                                media="(min-width: 1200px)" type="image/webp">
                             <source srcset="./images/team/desktop/img-1.jpg 1x, ./images/team/desktop/img-1@2x.jpg 2x"
                                 media="(min-width: 1200px)">
+                            <source srcset="./images/team/tablet/img-1.webp 1x, ./images/team/tablet/img-1@2x.webp 2x"
+                             media="(min-width: 768px)" type="image/webp">
                             <source srcset="./images/team/tablet/img-1.jpg 1x, ./images/team/tablet/img-1@2x.jpg 2x"
                                 media="(min-width: 768px)">
+                            <source srcset="./images/team/mobile/img-1.webp 1x, ./images/team/mobile/img-1@2x.webp 2x" 
+                            media="(min-width: 320px)" type="image/webp">
                             <source srcset="./images/team/mobile/img-1.jpg 1x, ./images/team/mobile/img-1@2x.jpg 2x"
                                 media="(min-width: 320px)">
                             <img src="./images/team/desktop/img-1.jpg"
@@ -300,10 +336,16 @@
         
                     <li class="team__item">
                         <picture class="picture">
+                            <source srcset="./images/team/desktop/img-2.webp 1x, ./images/team/desktop/img-2@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
                             <source srcset="./images/team/desktop/img-2.jpg 1x, ./images/team/desktop/img-2@2x.jpg 2x"
                                 media="(min-width: 1200px)">
+                            <source srcset="./images/team/tablet/img-2.webp 1x, ./images/team/tablet/img-2@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp">
                             <source srcset="./images/team/tablet/img-2.jpg 1x, ./images/team/tablet/img-2@2x.jpg 2x"
                                 media="(min-width: 768px)">
+                            <source srcset="./images/team/mobile/img-2.webp 1x, ./images/team/mobile/img-2@2x.webp 2x"
+                                media="(min-width: 320px)" type="image/webp">
                             <source srcset="./images/team/mobile/img-2.jpg 1x, ./images/team/mobile/img-2@2x.jpg 2x"
                                 media="(min-width: 320px)">
                             <img src="./images/team/desktop/img-2.jpg" alt="молодой парень в белой рубашке улыбается" />
@@ -347,10 +389,16 @@
         
                     <li class="team__item">
                         <picture class="picture">
+                            <source srcset="./images/team/desktop/img-3.webp 1x, ./images/team/desktop/img-3@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
                             <source srcset="./images/team/desktop/img-3.jpg 1x, ./images/team/desktop/img-3@2x.jpg 2x"
                                 media="(min-width: 1200px)">
+                            <source srcset="./images/team/tablet/img-3.webp 1x, ./images/team/tablet/img-3@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp">
                             <source srcset="./images/team/tablet/img-3.jpg 1x, ./images/team/tablet/img-3@2x.jpg 2x"
                                 media="(min-width: 768px)">
+                            <source srcset="./images/team/mobile/img-3.webp 1x, ./images/team/mobile/img-3@2x.webp 2x"
+                                media="(min-width: 320px)" type="image/webp">
                             <source srcset="./images/team/mobile/img-3.jpg 1x, ./images/team/mobile/img-3@2x.jpg 2x"
                                 media="(min-width: 320px)">
                             <img src="./images/team/desktop/img-3.jpg"
@@ -394,7 +442,7 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section> 
         
         <!--Секция постоянные клиенты-->
         <!-- <section class="partners">
@@ -534,7 +582,7 @@
     </footer> -->
     <!-- =========Модальное окно======== -->
     
-    <!-- <div class="backdrop is-hidden" data-modal>
+     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal__wrap" data-modal-close>
                 <svg class="modal__icon" width="18" height="18">
@@ -586,7 +634,7 @@
             </form>
         </div>
     
-    </div> -->
+    </div> 
     <!-- ========== Java scripts  ======== -->
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>

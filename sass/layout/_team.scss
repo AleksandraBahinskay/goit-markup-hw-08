@@ -1,7 +1,6 @@
 .team {
   background-color: var(--secondary-bgc);
-  padding: var(--section-pdg) 0;
-  min-width: 1200px;
+  padding: var(--section-pdg--mob) 0;
 }
 
 .team__member,
@@ -12,11 +11,6 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-}
-
-.team__profesion {
-  font-weight: 400;
-  color: var(--paragraph-color);
 }
 
 .team__item {
@@ -42,3 +36,20 @@
   padding: 30px 32px;
   text-align: center;
 }
+
+.team__profesion {
+  font-weight: 400;
+  color: var(--paragraph-color);
+}
+/*.team {
+  background-color: var(--secondary-bgc);
+  padding: var(--section-pdg) 0;
+  min-width: 1200px;
+}
+
+
+
+
+
+ 
+*/
