@@ -299,9 +299,11 @@ svg {
   }
 
   .contact-list {
-    display: block;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 
   .contact-list__link {

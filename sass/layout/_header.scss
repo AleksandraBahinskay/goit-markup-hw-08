@@ -172,9 +172,14 @@
   }
 
   .contact-list {
-    display: block;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: auto;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 
   .contact-list__link {
