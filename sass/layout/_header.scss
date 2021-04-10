@@ -23,14 +23,11 @@
 }
 
 .contacts-list {
-  display: flex;
   align-items: center;
   margin-left: auto;
 }
 
 .contacts-list__link {
-  padding-top: 32px;
-  padding-bottom: 32px;
   color: var(--primary-text-color);
   font-size: 14px;
   font-weight: 500;
@@ -187,7 +184,6 @@
   }
 
   .contact-list {
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -201,17 +197,12 @@
   .contact-list__link {
     display: inline-flex;
     align-items: center;
-    padding-top: 21px;
     font-weight: 500;
     font-size: 12px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--paragraph-color);
     transition: color var(--action-color) var(--cub);
-  }
-
-  .contact-list__link:last-child {
-    padding-top: 10px;
   }
 }
 

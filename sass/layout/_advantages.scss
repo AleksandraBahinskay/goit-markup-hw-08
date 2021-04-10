@@ -13,9 +13,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-  max-width: 100%;
   height: auto;
-  padding: 25px 190px;
   background-color: var(--secondary-bgc);
 }
 
@@ -56,10 +54,6 @@
     margin-left: 30px;
   }
 
-  .advantages__thumb {
-    padding: 25px 142px;
-  }
-
   .advantages__text {
     max-width: 350px;
   }
@@ -78,9 +72,6 @@
   .advantages__item {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
-  }
-  .advantages__thumb {
-    padding: 25px 100px;
   }
 }
 /*
