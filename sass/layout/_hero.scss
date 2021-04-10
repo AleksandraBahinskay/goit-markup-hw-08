@@ -46,6 +46,12 @@
   border-width: 2px;
 }
 
+@media not all, (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/hero/mobile/img@2x.jpg);
+  }
+}
+
 @media screen and (min-width: 480px) {
   .hero .container {
     width: 480px;
@@ -75,12 +81,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../images/hero/tablet/img.jpg);
-  }
-}
-
-@media not all, (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(../images/hero/mobile/img@2x.jpg);
   }
 }
 
