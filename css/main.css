@@ -841,7 +841,7 @@ svg {
 }
 @media not all, screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/desktop/img@2x.jpg);
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/desktop/hero@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -849,7 +849,7 @@ svg {
     max-width: 1600px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/desktop/img.jpg);
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/desktop/hero.jpg);
   }
 
   .hero__title {
