@@ -780,9 +780,13 @@ svg {
 }
 
 .hero__title {
+  font-family: var(--primary-font);
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 900;
   font-size: 26px;
-  line-height: 1.6;
+  line-height: 1.61;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -811,12 +815,6 @@ svg {
 @media not all, (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/mobile/img@2x.jpg);
-  }
-}
-@media screen and (min-width: 480px) {
-  .hero .container {
-    width: 480px;
-    margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -853,34 +851,11 @@ svg {
   }
 
   .hero__title {
-    margin: 0 auto;
-    max-width: 696px;
-    margin-bottom: 30px;
-    font-weight: 900;
+    width: 696px;
     font-size: 44px;
     line-height: 1.36;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--white);
   }
 }
-/*.hero {
-  padding: 200px 0;
-  background-color: var(--footer-bgc);
-  text-align: center;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/hero/desktop/img.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-width: 1200px;
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
-*/
 .advantages_list {
   display: block;
   justify-content: center;
