@@ -1,4 +1,7 @@
 .current {
+  .menu__item & {
+    color: var(--action-color);
+  }
   &::after {
     content: "";
     position: absolute;

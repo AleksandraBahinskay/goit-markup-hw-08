@@ -208,12 +208,12 @@
     position: fixed;
     top: 0;
     left: 50%;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     max-width: 480px;
-    height: 100vh;
+    height: 100%;
     background-color: var(--white);
     padding: 48px 40px;
     background-color: var(--white);
@@ -224,6 +224,7 @@
 
   .is-open {
     transform: translateY(0) translateX(-50%);
+    opacity: 1;
   }
   .mobile-menu-link {
     font-weight: 500;
@@ -236,6 +237,10 @@
     &:focus {
       color: var(--action-color);
     }
+  }
+
+  .mobile-menu-link--current {
+    color: var(--action-color);
   }
 
   .mobile-menu__item:nth-child(-n + 2) {
