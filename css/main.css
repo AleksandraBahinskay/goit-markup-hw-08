@@ -193,25 +193,57 @@ svg {
   fill: var(--white);
 }
 
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 450px;
-  height: 609px;
-  background-color: rgba(0, 0, 0, 0.2);
-  transition: all 250ms var(--cub);
+@media screen and (max-width: 768px) {
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 93px 15px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    transition: opacity 250ms var(--cub);
+  }
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
 }
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
+@media screen and (min-width: 768px) {
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 208px 159px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    transition: opacity 250ms var(--cub);
+  }
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
 }
-
 @media screen and (min-width: 1200px) {
   .backdrop {
-    width: 528px;
-    height: 581px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
   }
 }
 .modal__wrap {
@@ -235,11 +267,11 @@ svg {
 }
 
 .modal {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
-  width: 528px;
-  height: 581px;
+  max-width: 450px;
+  max-height: 609px;
   transform: translate(-50%, -50%);
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -262,6 +294,19 @@ svg {
   color: #212121;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal {
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 528px;
+    height: 581px;
+    background-color: #fff;
+    transform: scale(1) translate(-50%, -50%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
 .modal-form {
   display: flex;
   flex-direction: column;
