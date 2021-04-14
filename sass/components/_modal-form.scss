@@ -72,7 +72,9 @@
   color: var(--paragraph-color);
   margin-top: 20px;
   letter-spacing: 0.01em;
-  margin: 0 auto;
+}
+
+modal-form__check-desc--link {
   text-decoration-line: underline;
 }
 
@@ -84,7 +86,6 @@
   outline: 1px solid #000000;
   cursor: pointer;
   margin-right: 8px;
-  text-decoration-line: underline;
 
   .modal-form-term:checked + & {
     background-color: var(--action-color);

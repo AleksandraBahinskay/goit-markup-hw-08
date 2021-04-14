@@ -383,7 +383,9 @@ svg {
   color: var(--paragraph-color);
   margin-top: 20px;
   letter-spacing: 0.01em;
-  margin: 0 auto;
+}
+
+modal-form__check-desc--link {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
@@ -396,8 +398,6 @@ svg {
   outline: 1px solid #000000;
   cursor: pointer;
   margin-right: 8px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
 }
 .modal-form-term:checked + .modal-form__check-desc::before {
   background-color: var(--action-color);
