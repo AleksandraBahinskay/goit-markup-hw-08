@@ -1,6 +1,8 @@
 body {
   font-family: var(--primary-font);
   background-color: var(--primary-bgc);
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 h1,
