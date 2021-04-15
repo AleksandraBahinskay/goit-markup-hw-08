@@ -1206,6 +1206,7 @@ modal-form__check-desc--link {
   border: 1px solid var(--icon-color);
   box-sizing: border-box;
   border-radius: 4px;
+  transition: border 250ms var(--cub);
 }
 .partners__link:hover {
   border: 1px solid var(--action-color);
@@ -1232,18 +1233,6 @@ modal-form__check-desc--link {
   .partners__list {
     display: flex;
     flex-wrap: nowrap;
-  }
-
-  .partners__thumb {
-    width: 170px;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: border 250ms var(--cub);
-  }
-  .partners__link:hover .partners__thumb {
-    border: 1px solid var(--action-color);
   }
 
   .partners__items {
