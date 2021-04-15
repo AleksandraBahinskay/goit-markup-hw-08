@@ -53,6 +53,7 @@ body {
   font-family: var(--primary-font);
   background-color: var(--primary-bgc);
   overflow-x: hidden;
+  width: 100%;
   max-width: 100%;
 }
 

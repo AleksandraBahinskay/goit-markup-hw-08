@@ -53,6 +53,7 @@ body {
   font-family: var(--primary-font);
   background-color: var(--primary-bgc);
   overflow-x: hidden;
+  width: 100%;
   max-width: 100%;
 }
 
@@ -851,7 +852,7 @@ modal-form__check-desc--link {
 
 .hero__title {
   font-family: var(--primary-font);
-  width: 360px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   font-weight: 900;
@@ -1519,6 +1520,7 @@ body {
   font-family: var(--primary-font);
   background-color: var(--primary-bgc);
   overflow-x: hidden;
+  width: 100%;
   max-width: 100%;
 }
 
