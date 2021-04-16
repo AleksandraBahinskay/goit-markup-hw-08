@@ -632,6 +632,10 @@ svg {
   .contacts-list__item {
     margin-right: 30px;
   }
+
+  .contacts-list__link {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 767px) {
   .menu__item {
@@ -1569,6 +1573,10 @@ svg {
 
   .contacts-list__item {
     margin-right: 30px;
+  }
+
+  .contacts-list__link {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 767px) {

@@ -59,7 +59,7 @@
   }
 
   .contacts-list__link {
-    display: inline-flex;
+    display: inline-block;
     align-items: center;
     font-weight: 500;
     font-size: 12px;
@@ -67,6 +67,7 @@
     letter-spacing: 0.02em;
     color: var(--paragraph-color);
     transition: color 250ms var(--cub);
+}
 
     &:last-child {
       padding-top: 10px;
@@ -105,6 +106,10 @@
 
   .contacts-list__item {
     margin-right: 30px;
+  }
+
+  .contacts-list__link {
+    font-size: 14px;
   }
 }
 
