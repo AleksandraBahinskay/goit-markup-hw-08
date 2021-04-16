@@ -169,6 +169,10 @@ svg {
   background-color: var(--action-color);
 }
 
+.social-list__item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .social-list__icon {
   transition: fill 250ms var(--cub);
   fill: #afb1b8;
@@ -812,6 +816,9 @@ svg {
   outline-style: none;
   border-width: 2px;
 }
+.hero__btn:hover, .hero__btn:focus {
+  background-color: var(--hero-btn-action-bgc);
+}
 
 @media screen and (min-width: 768px) {
   .hero .container {
@@ -1082,7 +1089,7 @@ svg {
 }
 
 .partners__link {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -1154,12 +1161,13 @@ svg {
 .footer__invitation {
   display: block;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white);
+  margin-top: 60px;
 }
 
 .icon-list {
@@ -1190,17 +1198,6 @@ svg {
   fill: var(--white);
 }
 
-.footer__invitation {
-  display: block;
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--white);
-}
-
 .footer-form__input {
   display: flex;
   width: 100%;
@@ -1211,7 +1208,7 @@ svg {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--white);
+  color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
   border: 1px solid var(--paragraph-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1223,19 +1220,19 @@ svg {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--paragraph-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--paragraph-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--paragraph-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__input:hover, .footer-form__input:focus {
   outline: var(--white);
@@ -1350,6 +1347,10 @@ svg {
   .fotter-form__btn {
     display: inline-flex;
     margin-left: 12px;
+  }
+
+  .footer__invitation {
+    margin-top: 0;
   }
 }
 :root {
@@ -1857,12 +1858,13 @@ svg {
 .footer__invitation {
   display: block;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white);
+  margin-top: 60px;
 }
 
 .icon-list {
@@ -1893,17 +1895,6 @@ svg {
   fill: var(--white);
 }
 
-.footer__invitation {
-  display: block;
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--white);
-}
-
 .footer-form__input {
   display: flex;
   width: 100%;
@@ -1914,7 +1905,7 @@ svg {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--white);
+  color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
   border: 1px solid var(--paragraph-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1926,19 +1917,19 @@ svg {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--paragraph-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--paragraph-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--paragraph-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__input:hover, .footer-form__input:focus {
   outline: var(--white);
@@ -2053,5 +2044,9 @@ svg {
   .fotter-form__btn {
     display: inline-flex;
     margin-left: 12px;
+  }
+
+  .footer__invitation {
+    margin-top: 0;
   }
 }/*# sourceMappingURL=main.css.map */

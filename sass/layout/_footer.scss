@@ -18,12 +18,13 @@
 .footer__invitation {
   display: block;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white);
+  margin-top: 60px;
 }
 
 .icon-list {
@@ -56,17 +57,6 @@
   fill: var(--white);
 }
 
-.footer__invitation {
-  display: block;
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--white);
-}
-
 .footer-form__input {
   display: flex;
   width: 100%;
@@ -77,7 +67,7 @@
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--white);
+  color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
   border: 1px solid var(--paragraph-color);
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
@@ -89,7 +79,7 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
-    color: var(--paragraph-color);
+    color: rgba(255, 255, 255, 0.6);
   }
   &:hover,
   &:focus {
@@ -210,5 +200,9 @@
   .fotter-form__btn {
     display: inline-flex;
     margin-left: 12px;
+  }
+
+  .footer__invitation {
+    margin-top: 0;
   }
 }
