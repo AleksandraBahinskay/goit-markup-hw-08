@@ -473,7 +473,6 @@ svg {
 }
 
 .button {
-  display: flex;
   min-width: 200px;
   padding: 10px 32px;
   align-items: center;
@@ -1068,13 +1067,13 @@ svg {
   border-radius: 4px;
 }
 */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .abilities {
     display: none;
   }
 }
 .abilities {
-  padding: var(--section-pdg) 0;
+  padding: var(--section-pdg--des) 0;
 }
 
 .abilities__list {
@@ -1177,7 +1176,6 @@ svg {
 @media screen and (min-width: 1200px) {
   .team {
     padding: var(--section-pdg--des) 0;
-    padding-bottom: 0;
   }
 
   .team_list {
@@ -1197,7 +1195,6 @@ svg {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 30px;
   margin-left: -30px;
 }
 
@@ -1207,7 +1204,6 @@ svg {
   justify-content: center;
   flex-basis: calc(100% / 2 - 30px);
   margin-left: 30px;
-  margin-top: 30px;
   height: 92px;
   border-radius: 4px;
   box-sizing: border-box;
@@ -1278,7 +1274,6 @@ svg {
 }
 
 .footer__wraper {
-  padding-top: 60px;
   justify-content: center;
 }
 
@@ -2061,7 +2056,6 @@ svg {
 }
 
 .footer__wraper {
-  padding-top: 60px;
   justify-content: center;
 }
 

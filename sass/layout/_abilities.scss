@@ -1,11 +1,11 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .abilities {
     display: none;
   }
 }
 
 .abilities {
-  padding: var(--section-pdg) 0;
+  padding: var(--section-pdg--des) 0;
 }
 
 .abilities__list {
