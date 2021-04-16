@@ -63,19 +63,6 @@
     flex-wrap: nowrap;
   }
 
-  // .partners__thumb {
-  //   width: 170px;
-  //   height: 90px;
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  //   transition: border 250ms var(--cub);
-
-  //   .partners__link:hover & {
-  //     border: 1px solid var(--action-color);
-  //   }
-  // }
-
   .partners__items {
     flex-basis: calc(100% / 6 - 30px);
   }
