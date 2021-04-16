@@ -804,6 +804,9 @@ svg {
 .hero__button {
   display: inline-block;
 }
+.hero__button:hover, .hero__button:focus {
+  background-color: var(--hero-btn-action-bgc);
+}
 
 @media screen and (min-width: 768px) {
   .page-hero--overlay {
